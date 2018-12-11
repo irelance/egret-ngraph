@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "outFile": "bin/ngraph/ngraph.js",
+    "allowJs": true
+  },
+  "include": [
+    "src/ngraph.js"
+  ]
+}

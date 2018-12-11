@@ -1,0 +1,4 @@
+{
+  "name": "ngraph",
+  "typings": "typings/ngraph.d.ts"
+}
