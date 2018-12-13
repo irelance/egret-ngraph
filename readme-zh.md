@@ -11,10 +11,15 @@
 我觉得你们这些高手都懂的
 
 ## 2.2. 安装白鹭引擎
-Windows好办，按照官方的方法，Linux你要自己探索了。
-由于官方没有提供Linux的开发工具，
-所以我觉得探索Linux意义不大
-难道要我用编辑器手写exml？但是我拒绝
+Windows好办，按照官方的方法。
+
+Linux：
+```bash
+# 安装白鹭引擎
+git clone https://github.com/egret-labs/egret-core.git
+# 添加命令到 ${PATH}
+export PATH="/你的目录/egret-core/tools/bin:$PATH"
+```
 
 ## 2.3. 安装webpack-cli & webpack
 ```bash

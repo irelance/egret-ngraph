@@ -15,10 +15,12 @@ I suppose you guys acknowledge this :)
 I want to code on Linux Env, but their tools not support, so I had to develop on Windows.
 
 If you guys want to develop on Linux anyway, you may install egret to the project
-to use the ```egret``` command (I don't sure if this will work, but keep trying)
+to use the ```egret``` command
 ```bash
-#install egret if you are (Li|U)nix
-npm i egret
+# install egret if you are (Li|U)nix
+git clone https://github.com/egret-labs/egret-core.git
+# add to ${PATH}
+export PATH="/path/to/egret-core/tools/bin:$PATH"
 ```
 
 ## 2.3. install webpack-cli & webpack
